@@ -4,35 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-#esquerdo{
-    background-color: orange;
-    height: 500px;
-    width: 500px;
-}
-#direito{
-    width: 500px;
-    height: 500px;
-   flex-direction: column;
-}
 #atividade{
-    display: flex;
+    height: 500px;
+    border: solid blue;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-evenly;
 }
-
+#esquerdo{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    border: solid orange;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.esquerda1{
+    background-image: url(https://giffiles.alphacoders.com/219/219969.gif);
+    width: 200px;
+    height: 100px;
+}
+.esquerda2{
+    background-image: url(https://giffiles.alphacoders.com/220/220277.gif);
+    width: 200px;
+    height: 100px;
+}
+.esquerda3{
+    background-image: url(https://i.redd.it/tqtorvcxojib1.gif);
+    width: 200px;
+    height: 100px;
+}
+#direita{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    border: solid green;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.direita1{
+    width: 200px;
+    height: 100px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a290752-d7eb-45e3-aa31-8e71b544cde0/da6x61n-c725c6b9-00f3-4709-9180-751acd59b1eb.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBhMjkwNzUyLWQ3ZWItNDVlMy1hYTMxLThlNzFiNTQ0Y2RlMFwvZGE2eDYxbi1jNzI1YzZiOS0wMGYzLTQ3MDktOTE4MC03NTFhY2Q1OWIxZWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Yd93q6HBrxPAd-KWhdg6VIiPrnH45dXMa1mpxe1MoVM);
+}
+.direita2{
+    width: 200px;
+    height: 100px;
+    background-image: url(https://gifdb.com/images/high/luffy-hungry-eyes-m3tpxssw9lxk7f8z.gif);
+}
+.direita3{
+    width: 200px;
+    height: 100px;
+    background-image: url(https://media.tenor.com/aSvNzSQUVwAAAAAM/luffy-gear-5.gif);
+}
     </style>
     <title>Document</title>
 </head>
 <body>   
     <div id="atividade">
-        <div id="esquerdo">
-            <div class="esquerdo"></div>
-            <div class="esquerdo"></div>
-            <div class="esquerdo"></div>
+        <div id="esquerda">
+            <div class="esquerda1"></div>
+            <div class="esquerda2"></div>
+            <div class="esquerda3"></div>
         </div>
-        <div id="direito">
-            <div class="direito"></div>
-            <div class="direito"></div>
-            <div class="direito"></div>
+        <div id="direita">
+            <div class="direita1"></div>
+            <div class="direita2"></div>
+            <div class="direita3"></div>
         </div>
     </div>
 </body>

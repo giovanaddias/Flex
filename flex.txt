@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+#esquerdo{
+    background-color: orange;
+    height: 500px;
+    width: 500px;
+}
+#direito{
+    width: 500px;
+    height: 500px;
+   flex-direction: column;
+}
+#atividade{
+    display: flex;
+    background-color: blue;
+}
+
+    </style>
+    <title>Document</title>
+</head>
+<body>   
+    <div id="atividade">
+        <div id="esquerdo">
+            <div class="esquerdo"></div>
+            <div class="esquerdo"></div>
+            <div class="esquerdo"></div>
+        </div>
+        <div id="direito">
+            <div class="direito"></div>
+            <div class="direito"></div>
+            <div class="direito"></div>
+        </div>
+    </div>
+</body>
+</html>
